@@ -1,0 +1,28 @@
+{% extends 'home.html.twig' %}
+
+{% block body %}
+
+    <div class="container-fluid">
+
+        <h2>Congrats! Your files have been uploaded.</h2>
+
+        <div class="box-parent">
+            {% for image in files %}
+                <div class="box-image col-xs-3">
+                    <div>
+                        <h4>Nom: {{ image }}</h4>
+                    </div>
+                    <div>
+                        <img src="{{ image }}" alt="uploaded image" class="img-thumbnail">
+                    </div>
+                    <div>
+                        <a class="btn btn-danger" href="index.php?section=unlink&file={{ image }}">Delete</a>
+                        <a class="btn btn-success" href="index.php">Retour</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+
+{% endblock body %}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="bb350e9c-7578-43ea-95a3-c1275460a1c7" />
+          <option name="name" value="douceur_vegetale" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/../parisCode-1017-douceurVegetal/douceur_vegetale.sql" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

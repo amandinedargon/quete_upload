@@ -1,0 +1,17 @@
+{
+    "name": "amandinedargon/quete_upload",
+    "require": {
+        "twig/twig": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "amandinedargon",
+            "email": "amandine.dargon@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "quete_upload\\": "src/"
+        }
+    }
+}

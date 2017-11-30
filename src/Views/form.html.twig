@@ -1,0 +1,18 @@
+{% extends 'home.html.twig' %}
+
+{% block body %}
+
+    <div class="container-fluid">
+
+        <h2>Upload your files</h2>
+        <form action="index.php?section=success" enctype="multipart/form-data" method="post">
+            <div>
+                <input name="upload[]" type="file" multiple>
+            </div>
+            <div>
+                <input class="submit-button" type="submit" name="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+{% endblock body %}
